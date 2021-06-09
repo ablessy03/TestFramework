@@ -251,22 +251,6 @@ input {
 	width: 85%;
 }
 
-#detailed-info input{
-	width: 75%;
-}
-
-#detailed-info .card-body select {
-	width: 75%;
-    float: right;
-    background-color: #F7FAFC;
-    border: 0px;
-    border-radius: 0.25rem;
-	font-size: 0.85rem;
-    color: #444444;
-    padding: 6px 2px;
-}
-
-
 #detailed-info span {
 	font-size: 0.85rem;
 }
@@ -318,7 +302,7 @@ input::-webkit-search-cancel-button {
 	padding: .75rem;
 }
 
- .tab-content .card-body select {
+.card-body select {
 	width: 85%;
     float: right;
     background-color: #F7FAFC;
