@@ -251,9 +251,14 @@ input {
 	width: 85%;
 }
 
-#detailed-info input, #detailed-info select {
-	width: 75%
+#detailed-info input{
+	width: 75%;
 }
+
+#detailed-info select {
+	width: 75%;
+}
+
 
 #detailed-info span {
 	font-size: 0.85rem;
