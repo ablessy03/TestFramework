@@ -255,8 +255,15 @@ input {
 	width: 75%;
 }
 
-#detailed-info .card-body .form-group .form-select {
+#detailed-info .card-body select {
 	width: 75%;
+    float: right;
+    background-color: #F7FAFC;
+    border: 0px;
+    border-radius: 0.25rem;
+	font-size: 0.85rem;
+    color: #444444;
+    padding: 6px 2px;
 }
 
 
@@ -311,7 +318,7 @@ input::-webkit-search-cancel-button {
 	padding: .75rem;
 }
 
- .card-body select {
+ .tab-content .card-body select {
 	width: 85%;
     float: right;
     background-color: #F7FAFC;
