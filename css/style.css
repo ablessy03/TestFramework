@@ -251,7 +251,7 @@ input {
 	width: 85%;
 }
 
-#detailed-info input {
+#detailed-info input, #detailed-info select {
 	width: 75%
 }
 
