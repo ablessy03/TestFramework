@@ -315,12 +315,12 @@ input::-webkit-search-cancel-button {
 
 .card-body .form-check-inline {
     display: -webkit-inline-box;
-    width: 21%;
+    width: 26%;
     font-size: .85rem;
 }
 
 .card-body .form-check-inline .form-check-input {
-    margin-right: -3.6875rem;
+    margin-right: -2.6875rem;
 }
 
 .card-body .form-group {
