@@ -257,7 +257,7 @@
 						<div class="card-body">
 							<form>
 								<label for="name">Name</label>
-								<input type="text" id="name" name="name" placeholder="" class="shadow">User1
+								<input type="text" id="name" name="name" placeholder="User1" class="shadow">
 							</form>
 						</div>
 					
@@ -276,7 +276,17 @@
 			
 							<div class ="card shadow">
 								<div class="card-body">
-									<form>
+									<form>										
+										<div class="form-group">
+											<input list="userStatus" class="form-control" placeholder="Select User Status">
+											<datalist id="userStatus">
+												<option value="User7"></option>
+												<option value="User8"></option>
+												<option value="User9"></option>
+												<option value="User10"></option>
+												<option value="User11"></option>
+											</datalist>
+										</div>
 										<div class="form-group">
 											<label for="fname">First Name</label>
 											<input type="text" id="fname" name="fname" placeholder="User" disabled class="shadow">
