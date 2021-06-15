@@ -612,6 +612,9 @@ input::-webkit-calendar-picker-indicator {
 	padding: 1.25rem 0.5rem
 }
 
+#profile .col-md-8 {
+	padding-left: 0px;	
+}
 
 /* width */
 ::-webkit-scrollbar {
