@@ -619,17 +619,9 @@ input::-webkit-calendar-picker-indicator {
 	padding-left: 0px;	
 }
 
-.activeUser{
-	color: green;
-	font-weight: bold;	
-}
-.lockedUser{
-	color: dimgrey;
-	font-weight: bold;	
-}
-.disabledUser{
-	color: crimson;
-	font-weight: bold;	
+.badge {
+    padding: 6px;
+    margin-top: 9px;
 }
 
 /* width */
