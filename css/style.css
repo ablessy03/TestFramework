@@ -620,7 +620,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 .badge {
-    padding: 6px;
+    padding: 6px !important;
     margin-top: 9px;
 }
 
