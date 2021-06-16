@@ -297,46 +297,75 @@
 			
 						<div class ="card shadow">
 						<div class="card-body">
-							<form>
-								<div class = "form-group">
-									<label>Connection String</label>
-									<select class="form-select form-select-md shadow">
-										<option selected disabled>--- Select The Connection String ---</option>
-										<option value="file" selected>File</option>
-										<option value="jdbc">JDBC</option>
-										<option value="ftp">FTP</option>
-									</select>
-								</div>
-								
-								<div id ="csv">
-									<div class = "form-group">
-										<label for="name">Name</label>
-										<input type="text" id="name" name="name" class="shadow">
-									</div>
-									<div class = "form-group">
-										<label for="header">Header</label>
-										<input type="text" id="header" name="header" class="shadow">
-									</div>
-									<div class = "form-group">
-										<label for="field-seperator">Field Seperator</label>
-										<input type="text" id="field-seperator" name="field-seperator" class="shadow">
-									</div>
-									<div class = "form-group">
-										<label for="row-seperator">Row Seperator</label>
-										<input type="text" id="row-seperator" name="row-seperator" class="shadow">
-									</div>
-									<div class = "form-group">
-										<label for="text-enclosure">Text Enclosure</label>
-										<input type="text" id="text-enclosure" name="text-enclosure" class="shadow">
-									</div>
-									<div class = "form-group">
-										<label for="escape-character">Escape Character</label>
-										<input type="text" id="escape-character" name="escape-character" class="shadow">
-									</div>
-								</div>
-							</form>							
-							<a href="#" class="btn btn-primary save"><i class="fas fa-save"></i><span>Save</span></a>							
-							<a href="#" class="btn btn-primary save"><i class="fas fa-redo-alt"></i><span>Reset</span></a>
+							<div class="row">
+							<div class="col-md-12">
+							<!-- Search Bar -->
+								<form id="searchbar">
+									<input type="search" placeholder="Search">
+								</form>
+							</div>
+						</div>
+
+						<table class="table table-striped table-light shadow table-hover">
+							<thead>
+								<tr>
+									<th scope="col">Variable <i class="fas fa-sort"></i> </th>
+									<th scope="col">Tags<i class="fas fa-sort"></i> </th>
+									<th scope="col">DEV<i class="fas fa-sort"></i> </th>
+									<th scope="col">TEST<i class="fas fa-sort"></i> </th>
+									<th scope="col">STAG<i class="fas fa-sort"></i> </th>
+									<th scope="col">PROD<i class="fas fa-sort"></i> </th>
+									<th scope="col">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Id</td>
+									<td>Id</td>
+									<td>200862</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+								</tr>
+								<tr>
+									<td>BookingId</td>
+									<td>BookingId</td>
+									<td>743893483</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+								</tr>
+								<tr>
+									<td>Department</td>
+									<td>Department</td>
+									<td>HR</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+								</tr>
+								<tr>
+									<td>Country</td>
+									<td>Country</td>
+									<td>Nil</td>
+									<td></td>
+									<td></td>
+									<td></td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+								</tr>
+								<tr>
+									<td><input type="text" class="form-control" placeholder="Variable Name"></td>
+									<td><input type="text" class="form-control" placeholder="Tag Name"></td>
+									<td><input type="text" class="form-control" placeholder="DEV Name"></td>
+									<td><input type="text" class="form-control" placeholder="TEST Name"></td>
+									<td><input type="text" class="form-control" placeholder="STAG Name"></td>
+									<td><input type="text" class="form-control" placeholder="PROD Name"></td>
+									<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
+								</tr>
+							</tbody>
+						</table>
 						</div>
 						</div>
 						
