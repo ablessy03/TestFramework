@@ -251,6 +251,9 @@ input {
 	width: 85%;
 }
 
+#basicInfo span {
+	font-size: 0.85rem;
+}
 #detailed-info span {
 	font-size: 0.85rem;
 }
