@@ -295,80 +295,80 @@
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="connections">
 			
-						<div class ="card shadow">
-						<div class="card-body">
-							<div class="row">
-							<div class="col-md-12">
-							<!-- Search Bar -->
-								<form id="searchbar">
-									<input type="search" placeholder="Search">
-								</form>
-							</div>
-						</div>
+							<div class ="card shadow">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-md-12">
+										<!-- Search Bar -->
+											<form id="searchbar">
+												<input type="search" placeholder="Search">
+											</form>
+										</div>
+									</div>
 
-						<table class="table table-striped table-light shadow table-hover">
-							<thead>
-								<tr>
-									<th scope="col">Variable <i class="fas fa-sort"></i> </th>
-									<th scope="col">Tags<i class="fas fa-sort"></i> </th>
-									<th scope="col">DEV<i class="fas fa-sort"></i> </th>
-									<th scope="col">TEST<i class="fas fa-sort"></i> </th>
-									<th scope="col">STAG<i class="fas fa-sort"></i> </th>
-									<th scope="col">PROD<i class="fas fa-sort"></i> </th>
-									<th scope="col">Action</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Id</td>
-									<td>Id</td>
-									<td>200862</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-								</tr>
-								<tr>
-									<td>BookingId</td>
-									<td>BookingId</td>
-									<td>743893483</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-								</tr>
-								<tr>
-									<td>Department</td>
-									<td>Department</td>
-									<td>HR</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-								</tr>
-								<tr>
-									<td>Country</td>
-									<td>Country</td>
-									<td>Nil</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-								</tr>
-								<tr>
-									<td><input type="text" class="form-control" placeholder="Variable Name"></td>
-									<td><input type="text" class="form-control" placeholder="Tag Name"></td>
-									<td><input type="text" class="form-control" placeholder="DEV Name"></td>
-									<td><input type="text" class="form-control" placeholder="TEST Name"></td>
-									<td><input type="text" class="form-control" placeholder="STAG Name"></td>
-									<td><input type="text" class="form-control" placeholder="PROD Name"></td>
-									<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
-								</tr>
-							</tbody>
-						</table>
-						</div>
-						</div>
-						
+									<table class="table table-striped table-light shadow table-hover">
+										<thead>
+											<tr>
+												<th scope="col">Variable <i class="fas fa-sort"></i> </th>
+												<th scope="col">Tags<i class="fas fa-sort"></i> </th>
+												<th scope="col">DEV<i class="fas fa-sort"></i> </th>
+												<th scope="col">TEST<i class="fas fa-sort"></i> </th>
+												<th scope="col">STAG<i class="fas fa-sort"></i> </th>
+												<th scope="col">PROD<i class="fas fa-sort"></i> </th>
+												<th scope="col">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Id</td>
+												<td>Id</td>
+												<td>200862</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>BookingId</td>
+												<td>BookingId</td>
+												<td>743893483</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>Department</td>
+												<td>Department</td>
+												<td>HR</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>Country</td>
+												<td>Country</td>
+												<td>Nil</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td><input type="text" class="form-control" placeholder="Variable Name"></td>
+												<td><input type="text" class="form-control" placeholder="Tag Name"></td>
+												<td><input type="text" class="form-control" placeholder="DEV Name"></td>
+												<td><input type="text" class="form-control" placeholder="TEST Name"></td>
+												<td><input type="text" class="form-control" placeholder="STAG Name"></td>
+												<td><input type="text" class="form-control" placeholder="PROD Name"></td>
+												<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+
 						</div>
 						
                     <div class="tab-pane fade" id="variables">
@@ -376,173 +376,75 @@
 						<div class ="card shadow table-add">
 							
 							<div class="card-body">
-								<div class ="row">
-									<div class ="col-md-10">
-										<div class = "form-group">
-											<label>Connection</label>
-											<select class="form-select form-select-md shadow">
-												<option selected disabled>--- Select a Connection ---</option>
-												<option value="mongodb">MongoDB</option>
-												<option value="mysql">MySQL</option>
-												<option value="books">Books</option>
-												<option value="sftp">SFTP</option>
-											</select>
+								<div class="row">
+										<div class="col-md-12">
+										<!-- Search Bar -->
+											<form id="searchbar">
+												<input type="search" placeholder="Search">
+											</form>
 										</div>
 									</div>
-									<div class="col-md-2">
-										<a href="connection-details.html" class="btn btn-primary fetch"><i class="fas fa-file-import"></i><span>Fetch Schema</span></a>
-									</div>
-								</div>						
-							</div>
-					
-							<div class="row">
-								<div class="col-md-12">
-								<!-- Search Bar -->
-									<form id="searchbar">
-										<input type="search" placeholder="Search">
-									</form>
-								</div>
-							</div>
 
-							<table class="table table-striped table-light shadow table-hover">
-								<thead>
-									<tr>
-										<th scope="col">Primary Key </th>
-										<th scope="col">Order <i class="fas fa-sort"></i> </th>
-										<th scope="col">Field Name <i class="fas fa-sort"></i> </th>
-										<th scope="col">Source <i class="fas fa-sort"></i> </th>
-										<th scope="col">Action</i> </th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td><input type="checkbox" id="id" name="id" value="id" checked></td>
-										<td>10</td>
-										<td>Id</td>
-										<td>Id</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="fname" name="fname" value="fname"></td>
-										<td>12</td>
-										<td>FirstName</td>
-										<td>FirstName</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="lname" name="lname" value="lname"></td>
-										<td>24</td>
-										<td>LastName</td>
-										<td>LastName</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr class="selected">
-										<td><input type="checkbox" id="dept" name="dept" value="dept"></td>
-										<td>30</td>
-										<td>Dept</td>
-										<td>Dept</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="doj" name="doj" value="doj"></td>
-										<td>45</td>
-										<td>DOJ</td>
-										<td>DOJ</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="city" name="city" value="city"></td>
-										<td>50</td>
-										<td>City</td>
-										<td>City</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="zip" name="zip" value="zip"></td>
-										<td>60</td>
-										<td>Zip</td>
-										<td>Zip</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="checkbox" id="" name="" value=""></td>
-										<td><input type="text" class="form-control" id="order" placeholder="Enter Order"></td>
-										<td><input type="text" class="form-control" id="field_name" placeholder="Enter Field Name"></td>
-										<td><input list="source" class="form-control" placeholder="Select Source">
-											<datalist id="source">
-												<option value="Good Data">
-												<option value="APAC">
-												<option value="EMEA">
-												<option value="LATAM">
-											</datalist>
-										</td>
-										<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
-									</tr>
-								</tbody>
-							</table>
-			
-							<div class ="card sub-card shadow">
-					
-								<h6 class="card-header">Pre Processors (Source)</h6>
-								<div class="row">
-									<div class="col-md-12">
-										<!-- Search Bar -->
-										<form id="searchbar">
-											<input type="search" placeholder="Search">
-										</form>
-									</div>
-								</div>
-
-								<table class="table table-striped table-light shadow table-hover">
-									<thead>
-										<tr>
-											<th scope="col">Order <i class="fas fa-sort"></i> </th>
-											<th scope="col">Type <i class="fas fa-sort"></i> </th>
-											<th scope="col">Value <i class="fas fa-sort"></i> </th>
-											<th scope="col">Action</i> </th>
-										</tr>
-									</thead>
-									<tbody>
-									<tr>
-										<td>4</td>
-										<td>Data Type</td>
-										<td>String</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td>8</td>
-										<td>Trim</td>
-										<td>Full</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td>9</td>
-										<td>Ignore Null</td>
-										<td>True</td>
-										<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="text" class="form-control" id="order" placeholder="Enter Order"></td>
-										<td><input list="source" class="form-control" placeholder="Select Type">
-											<datalist id="source">
-												<option value="Good Data">
-												<option value="APAC">
-												<option value="EMEA">
-												<option value="LATAM">
-											</datalist>
-										</td>
-										<td><input list="source" class="form-control" placeholder="Select Value">
-											<datalist id="source">
-												<option value="Good Data">
-												<option value="APAC">
-												<option value="EMEA">
-												<option value="LATAM">
-											</datalist>
-										</td>
-										<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
-									</tr>
-									</tbody>
-								</table>
+									<table class="table table-striped table-light shadow table-hover">
+										<thead>
+											<tr>
+												<th scope="col">Variable <i class="fas fa-sort"></i> </th>
+												<th scope="col">Tags<i class="fas fa-sort"></i> </th>
+												<th scope="col">DEV<i class="fas fa-sort"></i> </th>
+												<th scope="col">TEST<i class="fas fa-sort"></i> </th>
+												<th scope="col">STAG<i class="fas fa-sort"></i> </th>
+												<th scope="col">PROD<i class="fas fa-sort"></i> </th>
+												<th scope="col">Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td>Id</td>
+												<td>Id</td>
+												<td>200862</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>BookingId</td>
+												<td>BookingId</td>
+												<td>743893483</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>Department</td>
+												<td>Department</td>
+												<td>HR</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td>Country</td>
+												<td>Country</td>
+												<td>Nil</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+											</tr>
+											<tr>
+												<td><input type="text" class="form-control" placeholder="Variable Name"></td>
+												<td><input type="text" class="form-control" placeholder="Tag Name"></td>
+												<td><input type="text" class="form-control" placeholder="DEV Name"></td>
+												<td><input type="text" class="form-control" placeholder="TEST Name"></td>
+												<td><input type="text" class="form-control" placeholder="STAG Name"></td>
+												<td><input type="text" class="form-control" placeholder="PROD Name"></td>
+												<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
+											</tr>
+										</tbody>
+									</table>
 					
 							</div>	
 							
