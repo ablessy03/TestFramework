@@ -255,22 +255,40 @@
 					
 						<h6 class="card-header">Basic Info</h6>
 						<div class="card-body">
-							<form>
-								<div class = "form-group">
-									<label for="name">Name</label>
-									<input type="text" id="name" name="name" class="shadow">
+							<div class="row">
+								<div class="col-md-8">
+									<form>
+										<div class="form-group">
+											<label for="name">Name</label>
+											<input type="text" id="name" name="name" class="shadow">
+										</div>								
+										<div class="form-group">									
+											<label for="description">Description</label>
+											<input type="text" id="description" name="description" class="shadow">
+										</div>
+										<div class = "form-group">
+											<label>Environment</label>
+											<select class="form-select form-select-md shadow">
+												<option selected disabled>--- Select The Environment ---</option>
+												<option value="dev">DEV</option>
+												<option value="test">TEST</option>
+												<option value="stag">STAG</option>
+												<option value="prod">PROD</option>
+											</select>
+										</div>	
+									</form>
 								</div>
-								<div class = "form-group">
-									<label>Environment</label>
-									<select class="form-select form-select-md shadow">
-										<option selected disabled>--- Select The Environment ---</option>
-										<option value="dev">DEV</option>
-										<option value="test">TEST</option>
-										<option value="stag">STAG</option>
-										<option value="prod">PROD</option>
-									</select>
+								<div class="col-md-4">
+									<div>
+										<label>Created on:</label>
+										<span>26/06/2021 14:15 by Nikky </span>
+									</div>
+									<div>
+										<label>Updated on:</label>
+										<span>27/06/2021 14:10 by Nikky </span>
+									</div>
 								</div>
-							</form>
+							</div>
 						</div>
 					
 					</div>
