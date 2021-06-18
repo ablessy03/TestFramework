@@ -248,7 +248,7 @@ td i, .btn i {
 
 input {
 	outline: none;
-	width: 85%;
+	width: 81%;
 }
 
 .basicInfo span {
@@ -306,7 +306,7 @@ input::-webkit-search-cancel-button {
 }
 
 .card-body select {
-	width: 85%;
+	width: 81%;
     float: right;
     background-color: #F7FAFC;
     border: 0px;
