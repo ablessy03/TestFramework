@@ -424,9 +424,9 @@ thead {
 	vertical-align: middle !important;
 }
 
-#past .table td, #past .table th {
+/* #past .table td, #past .table th {
     width: 9%;
-}
+} */
 
 .table-striped tbody tr:nth-of-type(odd) {
     background-color: transparent;
