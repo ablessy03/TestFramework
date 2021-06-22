@@ -38,7 +38,7 @@
 		
         <!-- Topbar - Page Name -->
         <div class="topbar-pagename d-flex align-items-center justify-content-center" >
-            <div class="topbar-pagename-text mr-3"><h4 class="h4 mb-0 text-white"><b>Users</b></h4></div>
+            <div class="topbar-pagename-text mr-3"><h4 class="h4 mb-0 text-white"><b>Company</b></h4></div>
         </div>
 
 		<!-- Topbar Navbar -->
@@ -161,7 +161,7 @@
                 Admin
             </div>
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link collapsed" href="company.html">
                     <i class="fas fa-fw fa-building"></i>
                     <span>Company</span>
@@ -192,7 +192,7 @@
 
             <!-- Nav Item -->
 
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="users.html">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Users</span>
@@ -270,7 +270,7 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Users</li>
+					<li class="breadcrumb-item active" aria-current="page">Company</li>
 				</ol>
 			</nav>
 
@@ -291,105 +291,73 @@
 						<table class="table table-striped table-light shadow table-hover">
 							<thead>
 								<tr>
-									<th scope="col">Name <i class="fas fa-sort"></i> </th>
-									<th scope="col">Role<i class="fas fa-sort"></i> </th>									
+									<th scope="col">Name <i class="fas fa-sort"></i> </th>								
 									<th scope="col">Status<i class="fas fa-sort"></i> </th>
-									<th scope="col">Email<i class="fas fa-sort"></i> </th>
-									<th scope="col">Updated On<i class="fas fa-sort"></i> </th>
+									<th scope="col">No. of Users<i class="fas fa-sort"></i> </th>
+									<th scope="col">No. of Plugins<i class="fas fa-sort"></i> </th>
 									<th scope="col">Action</th>
 								</tr>
 							</thead>
 							<tbody>
 								<tr>
-									<td>User1</td>
-									<td>Test Manager</td>									
+									<td>Company1</td>								
 									<td class="badge badge-success">Active</td>
-									<td>user1@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>20</td>
+									<td>2</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>User2</td>
-									<td>Tester</td>								
+									<td>Company2</td>					
 									<td class="badge badge-secondary">Disabled</td>
-									<td>user2@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>50</td>
+									<td>10</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>User3</td>
-									<td>Test Analyst</td>								
-									<td class="badge badge-danger">Locked</td>
-									<td>user3@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>Company3</td>							
+									<td class="badge badge-danger">Suspended</td>
+									<td>25</td>
+									<td>5</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>User4</td>
-									<td>Test Manager</td>								
+									<td>Company4</td>						
 									<td class="badge badge-success">Active</td>
-									<td>user4@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>54</td>
+									<td>12</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>User5</td>
-									<td>Tester</td>								
+									<td>Company5</td>						
 									<td class="badge badge-success">Active</td>
-									<td>user5@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>42</td>
+									<td>8</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
 								</tr>
 								<tr>
-									<td>User6</td>
-									<td>Test Analyst</td>								
+									<td>Company6</td>							
 									<td class="badge badge-success">Active</td>
-									<td>user6@onepointltd.com</td>
-									<td>21/4/2021 | 12:44</td>
+									<td>12</td>
+									<td>4</td>
 									<td>
 										<a href="user-details.html"><i class="fas fa-pen"></i></a>
 										<a href="#"><i class="fas fa-trash-alt"></i></a>
 									</td>
-								</tr>
-								<tr>
-									<td>
-										<input list="user" class="form-control" placeholder="Select User">
-											<datalist id="user">
-												<option value="User7">
-												<option value="User8">
-												<option value="User9">
-												<option value="User10">
-												<option value="User11">
-											</datalist>  
-									</td>
-									<td>
-										<input list="role" class="form-control" placeholder="Select Role">
-											<datalist id="role">
-												<option value="Admin">
-												<option value="Test Manager">
-												<option value="Tester">
-												<option value="Test Analyst">
-											</datalist>  
-									</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
 								</tr>
 							</tbody>
 						</table>	
