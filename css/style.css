@@ -287,10 +287,12 @@ input::-webkit-search-cancel-button {
 }
 
 .card-body input {
-	float: right;	
+    float: right;	
     background-color: #F7FAFC;
     border: 0px;
     border-radius: 0.25rem;
+    padding: 6px 12px;
+    font-size: 15px;
 } 
 
  .card-body input[type="text"]::placeholder { 
@@ -327,7 +329,7 @@ input::-webkit-search-cancel-button {
 }
 
 .card-body .form-group {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
 .row {
