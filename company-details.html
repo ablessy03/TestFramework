@@ -320,7 +320,7 @@
 					<div class="tab-content">
 						<div class="tab-pane fade show active" id="users">
 			
-							<div class ="card shadow">
+							<div class ="card shadow table-add">
 								<div class="row">
 									<div class="col-md-12">
 									<!-- Search Bar -->
@@ -403,67 +403,80 @@
 			
 						<div class ="card shadow table-add">
 					
-							<div class="row">
-								<div class="col-md-12">
-								<!-- Search Bar -->
-									<form id="searchbar">
-										<input type="search" placeholder="Search">
-									</form>
+								<div class="row">
+									<div class="col-md-12">
+									<!-- Search Bar -->
+										<form id="searchbar">
+											<input type="search" placeholder="Search">
+										</form>
+									</div>
 								</div>
-							</div>
 
-							<table class="table table-striped table-light shadow table-hover">
-								<thead>
-									<tr>
-										<th scope="col">Created On <i class="fas fa-sort"></i> </th>
-										<th scope="col">Action <i class="fas fa-sort"></i> </th>
-										<th scope="col">Entity Name <i class="fas fa-sort"></i> </th>
-										<th scope="col">Entity Item Name <i class="fas fa-sort"></i> </th>
-										<th scope="col">Result <i class="fas fa-sort"></i> </th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>21/04/2021 | 15:23</td>
-										<td>Import</td>
-										<td>Connections</td>
-										<td>TC1</td>
-										<td>Success</td>
-									</tr>
-									<tr>
-										<td>21/04/2021 | 15:23</td>
-										<td>Export</td>
-										<td>Data Sources</td>
-										<td>TC2</td>
-										<td>Success</td>
-									</tr>
-									<tr>
-										<td>21/04/2021 | 15:23</td>
-										<td>Save</td>
-										<td>Test Cases</td>
-										<td>TC3</td>
-										<td>Success</td>
-									</tr>
-								</tbody>
-							</table>	
-
-							<nav aria-label="navigation">
-								<ul class="pagination shadow">
-									<li class="page-item">
-										<a class="page-link" href="#" aria-label="Previous">
-											<span aria-hidden="true">&laquo;</span>
-										</a>
-									</li>
-									<li class="page-item active"><a class="page-link" href="#">1</a></li>
-									<li class="page-item"><a class="page-link" href="#">2</a></li>
-									<li class="page-item"><a class="page-link" href="#">3</a></li>
-									<li class="page-item">
-										<a class="page-link" href="#" aria-label="Next">
-											<span aria-hidden="true">&raquo;</span>
-										</a>
-									</li>
-								</ul>
-							</nav>
+								<table class="table table-striped table-light shadow table-hover">
+									<thead>
+										<tr>
+											<th scope="col">Name <i class="fas fa-sort"></i> </th>							
+											<th scope="col">Status<i class="fas fa-sort"></i> </th>							
+											<th scope="col">Status Cause<i class="fas fa-sort"></i> </th>
+											<th scope="col">Associated On<i class="fas fa-sort"></i> </th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Plugin1</td>								
+											<td class="badge badge-success">Active</td>
+											<td>Working Actively</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+										<tr>
+											<td>Plugin2</td>						
+											<td class="badge badge-secondary">Disabled</td>											
+											<td>Not Working</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+										<tr>
+											<td>Plugin3</td>							
+											<td class="badge badge-danger">Suspended</td>
+											<td>Exploring other options</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+										<tr>
+											<td>Plugin4</td>							
+											<td class="badge badge-success">Active</td>
+											<td>Working Actively</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+										<tr>
+											<td>Plugin5</td>								
+											<td class="badge badge-success">Active</td>
+											<td>Working Actively</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+										<tr>
+											<td>Plugin6</td>							
+											<td class="badge badge-success">Active</td>
+											<td>Working Actively</td>
+											<td>21/4/2021 | 12:44 by Nikky</td>
+										</tr>
+									</tbody>
+								</table>
+								<nav aria-label="navigation">
+									<ul class="pagination shadow">
+										<li class="page-item">
+											<a class="page-link" href="#" aria-label="Previous">
+												<span aria-hidden="true">«</span>
+											</a>
+										</li>
+										<li class="page-item active"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item">
+											<a class="page-link" href="#" aria-label="Next">
+												<span aria-hidden="true">»</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
 						</div>
 					</div>
 
