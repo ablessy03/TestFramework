@@ -629,6 +629,11 @@ input::-webkit-calendar-picker-indicator {
     margin-top: 9px;
 }
 
+.users input[type=checkbox] {
+    width: unset !important;
+    margin-right: 6px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 9px;
