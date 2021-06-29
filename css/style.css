@@ -524,7 +524,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 #testing table {
-	margin: 2rem;
+	margin: 2rem !important;
 }
 
 .form-row {
