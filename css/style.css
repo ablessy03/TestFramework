@@ -638,9 +638,14 @@ input::-webkit-calendar-picker-indicator {
     font-weight: bold;
 }
 
+.users .form-check-inline {
+    margin-right: 1.5rem;
+    font-size: 0.85rem;	
+}
+
 .users input[type=checkbox] {
     width: unset !important;
-    margin-right: 6px;
+    margin-right: 9px;
 }
 
 /* width */
