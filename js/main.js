@@ -3,9 +3,5 @@ function toggle(source) {
   for(var i=0, n=checkboxes.length;i<n;i++) {
     checkboxes[i].checked = source.checked;
   }
-  checkboxes = document.getElementsByName('environment-permission');
-  for(var i=0, n=checkboxes.length;i<n;i++) {
-    checkboxes[i].checked = source.checked;
-  }
 }
 
