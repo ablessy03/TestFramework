@@ -292,7 +292,8 @@ input::-webkit-search-cancel-button {
     border: 0px;
     border-radius: 0.25rem;
     padding: 6px 12px;
-    font-size: 15px;
+    font-size: 0.85rem;
+    color: #858796;
 } 
 
  .card-body input[type="text"]::placeholder { 
