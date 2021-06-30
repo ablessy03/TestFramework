@@ -314,6 +314,10 @@
 										<div class="form-group">											
 											<label for="name">Name</label>
 											<input type="text" id="name" name="name" placeholder="Company1" class="shadow">
+										</div>										
+										<div class="form-group">											
+											<label for="description">Description</label>
+											<input type="text" id="description" name="description" value="Company address" class="shadow">
 										</div>
 										<div class="form-group">										
 											<label for="status">Status</label>
@@ -480,16 +484,18 @@
 											<td>21/4/2021 | 12:44 by Nikky</td>
 										</tr>
 										<tr>
-											<td>Plugin5</td>								
-											<td class="badge badge-success">Active</td>
-											<td>Working Actively</td>
-											<td>21/4/2021 | 12:44 by Nikky</td>
-										</tr>
-										<tr>
-											<td>Plugin6</td>							
-											<td class="badge badge-success">Active</td>
-											<td>Working Actively</td>
-											<td>21/4/2021 | 12:44 by Nikky</td>
+											<td>
+												<input list="user" class="form-control" placeholder="Select User">
+												<datalist id="user">
+													<option value="Plugin5"></option>
+													<option value="Plugin6"></option>
+													<option value="Plugin7"></option>
+													<option value="Plugin8"></option>
+												</datalist>
+											</td>
+											<td></td>											
+											<td></td>
+											<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
 										</tr>
 									</tbody>
 								</table>
