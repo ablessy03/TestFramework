@@ -373,18 +373,55 @@
 							<form>
 								<div class = "form-group">
 									<label>Type</label>
-									<select class="form-select form-select-md shadow">
+									<select class="form-select form-select-md shadow div-toggle" data-target=".connection-type">
 										<option selected disabled>--- Select Type ---</option>
-										<option value="file" selected>File</option>
-										<option value="jdbc">JDBC</option>
-										<option value="ftp">FTP</option>
+										<option value="file" data-show=".file">File</option>
+										<option value="jdbc" data-show=".jdbc">JDBC</option>
+										<option value="ftp" data-show=".ftp">FTP</option>
 									</select>
-								</div>
-								
-								<div id ="file">
-									<div class = "form-group">
-										<label for="folder-path">Folder Path</label>
-										<input type="text" id="folder-path" name="folder-path" class="shadow">
+								</div>								
+								<div class="connection-type">
+									<div class ="file hide">
+										<div class = "form-group">
+											<label for="folder-path">Folder Path</label>
+											<input type="text" id="folder-path" name="folder-path" class="shadow">
+										</div>
+									</div>
+									<div class ="jdbc hide">
+										<div class = "form-group">
+											<label for="connection-string">Connection String</label>
+											<input type="text" id="connection-string" name="connection-string" class="shadow">
+										</div>
+									</div>
+									<div class ="ftp hide">
+										<div class = "form-group">
+											<label for="type">Type</label>
+											<select class="form-select form-select-md shadow" >
+												<option selected disabled>--- Select Type ---</option>
+												<option value="ftp">FTP</option>
+												<option value="sftp">SFTP</option>
+											</select>
+										</div>
+										<div class = "form-group">
+											<label for="host">Host</label>
+											<input type="text" id="host" name="host" class="shadow">
+										</div>
+										<div class = "form-group">
+											<label for="port">Port</label>
+											<input type="text" id="port" name="port" class="shadow">
+										</div>
+										<div class = "form-group">
+											<label for="username">Username</label>
+											<input type="text" id="username" name="username" class="shadow">
+										</div>
+										<div class = "form-group">
+											<label for="password">Password</label>
+											<input type="text" id="password" name="password" class="shadow">
+										</div>
+										<div class = "form-group">
+											<label for="folder-path">Folder Path</label>
+											<input type="text" id="folder-path" name="folder-path" class="shadow">
+										</div>
 									</div>
 								</div>
 							</form>							
