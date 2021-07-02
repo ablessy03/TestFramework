@@ -650,6 +650,10 @@ input::-webkit-calendar-picker-indicator {
     margin-right: 9px;
 }
 
+.hide {
+  display: none;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 9px;
