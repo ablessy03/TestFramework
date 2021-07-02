@@ -427,6 +427,10 @@ thead {
 	vertical-align: middle !important;
 }
 
+td .bootstrap-select {
+	width: auto;
+}
+
 /* #past .table td, #past .table th {
     width: 9%;
 } */
