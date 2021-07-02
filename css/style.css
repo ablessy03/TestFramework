@@ -428,7 +428,7 @@ thead {
 }
 
 td .bootstrap-select {
-	width: auto;
+	width: auto !important;
 }
 
 /* #past .table td, #past .table th {
