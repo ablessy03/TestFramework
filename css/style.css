@@ -45,7 +45,7 @@ body {
     float: right;
 }
 
-.save{
+.save, .reset{
     float: right;
 	margin-left: 15px;
 }
