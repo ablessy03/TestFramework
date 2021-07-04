@@ -334,6 +334,8 @@ input {
 /* Search Bar */
 .searchbar input[type=search] {
 	margin: 0rem !important;
+}
+.searchbar input[type=search]:focus {	
 	width: 125vh;
 }
 #searchbar input[type=search] {
