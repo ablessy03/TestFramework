@@ -50,13 +50,6 @@ body {
 	margin-left: 15px;
 }
 
-.fetch {
-    margin-top: 0rem;
-    float: right;
-	padding: .375rem .575rem;
-}
-
-
 .btn {
 	font-size: .85rem;
 }
@@ -339,6 +332,9 @@ input {
 }
 
 /* Search Bar */
+.searchbar input[type=search] {
+	margin: 0rem;
+}
 #searchbar input[type=search] {
 	background: url(https://static.tumblr.com/ftv85bp/MIXmud4tx/search-icon.png) no-repeat 9px center;
 	border: none;
