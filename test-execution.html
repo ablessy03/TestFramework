@@ -323,19 +323,14 @@
             <!-- Main Content -->
             <div id="content">
 			
-						<div class ="table-create card shadow">
+						<div class ="table-add card shadow">
 					
 							<div class="row">
-								<div class="col-md-11">
+								<div class="col-md-12">
 								<!-- Search Bar -->
 									<form id="searchbar">
 										<input type="search" placeholder="Search">
 									</form>
-								</div>
-				
-								<!-- Create -->
-								<div class="col-md-1">
-									<a href="test-execution-details.html" class="btn btn-primary create"><i class="fas fa-plus"></i><span>Create</span></a>
 								</div>
 							</div>
 
@@ -387,6 +382,21 @@
 										<td>Queued</td>
 										<td>-</td>
 										<td><i class="fas fa-play"></i><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+									</tr>
+									<tr>
+										<td><input type="text" class="form-control" placeholder="Enter Priority"></td>									
+										<td><input type="text" class="form-control" placeholder="Enter Execution Name"></td>
+										<td>
+											<select class="selectpicker" multiple title="Select Suite" data-selected-text-format="count" data-live-search="true">
+											  <option>Suite5</option>
+											  <option>Suite6</option>
+											  <option>Suite7</option>
+											  <option>Suite8</option>
+											</select>
+										</td>
+										<td></td>
+										<td></td>
+										<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
 									</tr>
 								</tbody>
 							</table>	
