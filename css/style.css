@@ -660,26 +660,6 @@ input::-webkit-calendar-picker-indicator {
   display: none;
 }
 
-/* width */
-::-webkit-scrollbar {
-  width: 9px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1; 
-}
- 
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #888; 
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #444; 
-}
-
 // FAQ
 .faq-nav {
     flex-direction: column;
@@ -691,6 +671,7 @@ input::-webkit-calendar-picker-indicator {
     
 .faq-nav  .nav-link {
         position: relative;
+	width: 100%;
         display: block;
         margin: 0;
         padding: 13px 16px;
@@ -775,3 +756,25 @@ input::-webkit-calendar-picker-indicator {
 .collapse.show .card-body {
         border-bottom: 1px solid rgba(0,0,0,.125);
 }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #444; 
+}
+
