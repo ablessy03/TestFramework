@@ -661,7 +661,7 @@ input::-webkit-calendar-picker-indicator {
 }
 
 // FAQ
-.row .faq-nav {
+#faq-tabs {
     flex-direction: column;
     margin: 0 0 32px;
     border-radius: 2px;    
