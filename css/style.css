@@ -680,6 +680,7 @@ input::-webkit-calendar-picker-indicator {
         border-radius: 0;
         color: #616161;
         transition: background-color .2s ease;
+	font-size: .8rem;
 }
 
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
