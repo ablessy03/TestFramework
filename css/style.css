@@ -660,15 +660,7 @@ input::-webkit-calendar-picker-indicator {
   display: none;
 }
 
-// FAQ
-#faq-content .nav {
-    flex-direction: column;
-    margin: 0 0 32px;
-    border-radius: 2px;    
-    border: 1px solid #ddd;
-    box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-}
-    
+// FAQ 
 .faq-nav  .nav-link {
         position: relative;
 	width: 100%;
