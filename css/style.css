@@ -747,7 +747,9 @@ input::-webkit-calendar-picker-indicator {
     color: #444444;
 }
  .tab-content   .card-body p {
-            color: #616161;
+    color: rgba(68,68,76,.80);
+    margin-bottom: 0;
+    font-size: 0.85rem;
 }
 .tab-content  &:last-of-type {
                 margin: 0;
