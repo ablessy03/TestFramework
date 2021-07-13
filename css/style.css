@@ -702,7 +702,7 @@ input::-webkit-calendar-picker-indicator {
             border-bottom: 0;
 }
         
-.faq-nav i.mdi {
+.faq-nav i{
             margin-right: 5px;
             font-size: 18px;
             position: relative;
