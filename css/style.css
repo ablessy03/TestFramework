@@ -682,6 +682,10 @@ input::-webkit-calendar-picker-indicator {
         transition: background-color .2s ease;
 }
 
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #0085D8;
+}
+
 .faq-nav  &:hover {
             background-color: #f6f6f6;
 }
@@ -728,7 +732,7 @@ input::-webkit-calendar-picker-indicator {
                 padding: 0;
                 border: 0;
                 font-weight: 700;
-                color: rgba(0,0,0,.87);
+                color: #444444;
                 text-align: left;
                 white-space: normal;
 }
