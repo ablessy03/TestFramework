@@ -743,16 +743,16 @@ input::-webkit-calendar-picker-indicator {
                .tab-content &:hover:active {
                     text-decoration: none;
                 }
-    
+     .tab-content .btn-link:hover {
+    color: #444444;
+}
  .tab-content   .card-body p {
             color: #616161;
 }
-            .tab-content  &:last-of-type {
+.tab-content  &:last-of-type {
                 margin: 0;
             }
 
-
-// BORDER FIX
 .accordion > .card &:not(:first-child) {
             border-top: 0;
         }   
