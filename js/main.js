@@ -15,3 +15,19 @@ $(document).on('change', '.div-toggle', function() {
 $(document).ready(function(){
 	$('.div-toggle').trigger('change');
 });
+
+// Change Profile
+$("#profileImage").click(function(e) {
+    $("#imageUpload").click();
+});
+
+function fasterPreview( uploader ) {
+    if ( uploader.files && uploader.files[0] ){
+          $('#profileImage').attr('src', 
+             window.URL.createObjectURL(uploader.files[0]) );
+    }
+}
+
+$("#imageUpload").change(function(){
+    fasterPreview( this );
+});
