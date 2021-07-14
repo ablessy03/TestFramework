@@ -764,53 +764,84 @@ input::-webkit-calendar-picker-indicator {
         border-bottom: 1px solid rgba(0,0,0,.125);
 }
 
-.profile-user-img{
-  width: 125px;
-  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+.profile{
+  width: 95%;
+  max-width: 750px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 3.5em .75em;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  background: #fff;
 }
 
-.avatar-upload {
-    position: relative;
-    max-width: 205px;
-    margin: auto;
-    margin-bottom: 20px;
-}  
-.avatar-edit {
-        position: absolute;
-        right: 40px;
-        z-index: 1;
-        top: 90px;
+.profile .btn{
+  text-align: center;
+  padding: .5em .75em;
+  background: #3FBF7F;
+  background: linear-gradient(to right, #1CCEB0, #3FBF7F);
+  border: none;
+  font-weight: 300;
+  font-size: 1.25EM;
+  color: #fff;
+  border-radius: 4px;
+  transition: all 500ms;
+  &:hover {
+    border-radius: 12px;
+  }
 }
-.avatar-edit input {
-            display: none;
+
+.profile input[type=file]{
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
 }
-.avatar-upload .avatar-edit input + label {
-    display: inline-block;
-    width: 34px;
-    height: 34px;
-    margin-bottom: 0;
-    border-radius: 100%;
-    background: #FFFFFF;
-    border: 1px solid #d2d6de;
-    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 12%);
-    cursor: pointer;
-    font-weight: normal;
-    transition: all 0.2s ease-in-out;
+
+.profile .fileName{
+  padding-top: 10px;
+  font-weight: 300;
 }
-.avatar-upload .avatar-edit input + label&:hover {
-                    background: #f1f1f1;
-                    border-color: #d6d6d6;
-}
-.avatar-upload .avatar-edit input + label:after {
-    content: "\f030";
-    font-family: "FontAwesome";
-    color: #337AB7;
+
+.profile .preview{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  background: #f2f2f2;
+  border-radius: 100%;
+  margin: 0 auto 25px auto;
+  overflow: hidden;
+  border: 8px solid #E0E0E0;
+  
+ .profile img {
+    width: 250px; height: 250px;
+	  object-fit: contain;
+  }
+  
+ .profile .loadingLogo{
     position: absolute;
-    left: 0;
-    right: 0;
-    text-align: center;
-    line-height: 34px;
-    margin: auto;
+    top: 50%;
+    left: 50%;
+    margin-left: -35px;
+    margin-top: -35px;
+    width: 70px;
+    height: 70px;
+    border: 5px solid #69CD9B;
+    border-top: 5px solid #2FDEC1;
+    border-radius: 100%;
+    animation: spin 500ms linear infinite;
+  }
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* width */
