@@ -323,17 +323,16 @@
             <!-- Main Content -->
             <div id="content">
                 <div class ="card shadow">
-                  <div class="avatar-upload">
-			<div class="avatar-edit">
-			  <form action="" method="post" id="form-image">
-			    <input type='file' id="imageUpload" accept=".png, .jpg, .jpeg" />
-			    <label for="imageUpload"></label>
-			  </form>
-			</div>
-			<div class="avatar-preview">
-			  <img class="profile-user-img img-responsive img-circle" id="imagePreview" src="https://adminlte.io/themes/AdminLTE/dist/img/user3-128x128.jpg" alt="User profile picture">
-			</div>
-		  </div>
+                  <section class="profile">
+  
+			  <div class="preview">
+			  </div>
+
+			  <button id="triggerUpload" class="btn">Edit Image</button>
+			  <input type="file" id="filePicker" />
+			  <div class="fileName"></div>
+
+		  </section>  
                 </div>
             </div>
             <!-- End of Main Content -->
