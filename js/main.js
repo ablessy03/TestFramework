@@ -17,17 +17,20 @@ $(document).ready(function(){
 });
 
 // Change Profile
-function readURL(input) {
-    if (input.files && input.files[0]) {
-        var reader = new FileReader();
-        reader.onload = function(e) {
-            $('#imagePreview').css('background-image', 'url('+e.target.result +')');
-            $('#imagePreview').hide();
-            $('#imagePreview').fadeIn(650);
-        }
-        reader.readAsDataURL(input.files[0]);
+$(document).ready(function(){
+
+  $("#imageUpload").change(function(data){
+
+    var imageFile = data.target.files[0];
+    var reader = new FileReader();
+    reader.readAsDataURL(imageFile);
+
+    reader.onload = function(evt){
+      $('#imagePreview').attr('src', evt.target.result);
+      $('#imagePreview').hide();
+      $('#imagePreview').fadeIn(650);
     }
-}
-$("#imageUpload").change(function() {
-    readURL(this);
+    
+  });
+	
 });
