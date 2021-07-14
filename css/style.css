@@ -774,15 +774,17 @@ input::-webkit-calendar-picker-indicator {
     max-width: 205px;
     margin: auto;
     margin-bottom: 20px;
-  
-    .avatar-edit {
+}  
+.avatar-edit {
         position: absolute;
         right: 40px;
         z-index: 1;
         top: 90px;
-        input {
+}
+.avatar-edit input {
             display: none;
-            + label {
+}
+.avatar-edit label {
                 display: inline-block;
                 width: 34px;
                 height: 34px;
@@ -794,11 +796,12 @@ input::-webkit-calendar-picker-indicator {
                 cursor: pointer;           
                 font-weight: normal;
                 transition: all .2s ease-in-out;
-                &:hover {
+}
+.avatar-edit label &:hover {
                     background: #f1f1f1;
                     border-color: #d6d6d6;
-                }
-                &:after {
+}
+.avatar-edit label &:after {
                     content: "\f030";
                     font-family: 'FontAwesome';
                     color: #337AB7;
@@ -808,10 +811,6 @@ input::-webkit-calendar-picker-indicator {
                     text-align: center;
                     line-height: 34px;
                     margin: auto;
-                }
-            }
-        }
-    }
 }
 
 /* width */
