@@ -806,7 +806,7 @@ input::-webkit-calendar-picker-indicator {
   height: 100%;
   width: 100%;
 }
-.avatar-wrapper .upload-button .fa-arrow-circle-up {
+.avatar-wrapper .upload-button i {
   position: absolute;
   font-size: 234px;
   top: -17px;
@@ -816,7 +816,7 @@ input::-webkit-calendar-picker-indicator {
   transition: all 0.3s ease;
   color: #34495e;
 }
-.avatar-wrapper .upload-button:hover .fa-arrow-circle-up {
+.avatar-wrapper .upload-button:hover i {
   opacity: 0.9;
 }
 
