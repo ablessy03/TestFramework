@@ -787,17 +787,18 @@ input::-webkit-calendar-picker-indicator {
   transition: all 0.3s ease;
 }
 .avatar-wrapper .profile-pic:after {
-  font-family: 'Font Awesome 5 Free';
-  content: "\f007";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  font-size: 190px;
-  background: #ecf0f1;
-  color: #34495e;
-  text-align: center;
+    font-family: 'Font Awesome 5 Free';
+    content: "\f007";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    font-size: 162px;
+    background: #ecf0f1;
+    color: #0085D8;
+    text-align: center;
+    font-weight: 900;
 }
 .avatar-wrapper .upload-button {
   position: absolute;
@@ -807,14 +808,14 @@ input::-webkit-calendar-picker-indicator {
   width: 100%;
 }
 .avatar-wrapper .upload-button i {
-  position: absolute;
-  font-size: 234px;
-  top: -17px;
-  left: 0;
-  text-align: center;
-  opacity: 0;
-  transition: all 0.3s ease;
-  color: #34495e;
+    position: absolute;
+    font-size: 120px;
+    top: 21%;
+    left: 21%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    color: #0085D8;
 }
 .avatar-wrapper .upload-button:hover i {
   opacity: 0.9;
