@@ -710,7 +710,6 @@ input::-webkit-calendar-picker-indicator {
 }
 .tab-content {
     box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
-    margin: 32px 0;
 }
 
  .tab-content   .card {
@@ -755,6 +754,10 @@ input::-webkit-calendar-picker-indicator {
 .tab-content  &:last-of-type {
                 margin: 0;
             }
+
+#faq-tab-content {
+    margin: 32px 0;	
+}
 
 .accordion > .card &:not(:first-child) {
             border-top: 0;
