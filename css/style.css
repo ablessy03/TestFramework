@@ -771,7 +771,7 @@ input::-webkit-calendar-picker-indicator {
   position: relative;
   height: 200px;
   width: 200px;
-  margin: 50px auto;
+  margin: 0px;
   border-radius: 50%;
   overflow: hidden;
   box-shadow: 1px 1px 15px -5px black;
@@ -821,7 +821,7 @@ input::-webkit-calendar-picker-indicator {
     color: #0085D8;
 }
 .avatar-wrapper .upload-button:hover i {
-  opacity: 0.9;
+  opacity: 1;
 }
 
 
