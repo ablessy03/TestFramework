@@ -787,7 +787,7 @@ input::-webkit-calendar-picker-indicator {
   transition: all 0.3s ease;
 }
 .avatar-wrapper .profile-pic:after {
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 5 Solid';
   content: "\f007";
   top: 0;
   left: 0;
