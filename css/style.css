@@ -708,22 +708,22 @@ input::-webkit-calendar-picker-indicator {
             font-size: 0.85rem;
             position: relative;
 }
-.tab-content {
+#faq-tab-content{
     box-shadow: 0 1px 5px rgba(85, 85, 85, 0.15);
 }
 
- .tab-content   .card {
+#faq-tab-content   .card {
         border-radius: 0;    
 	 margin-bottom: 0rem;
     }
     
-   .tab-content  .card-header {
+#faq-tab-content .card-header {
         padding: 15px 16px;
         border-radius: 0;
         background-color: #f6f6f6;
 	border-bottom: 1px solid rgba(0,0,0,.125);
 }       
- .tab-content       h5 {
+#faq-tab-content       h5 {
             margin: 0;
 }         
 #faq-tab-content  button {
@@ -737,21 +737,21 @@ input::-webkit-calendar-picker-indicator {
                 white-space: normal;
 }
                 
-    .tab-content &:hover,
+#faq-tab-content &:hover,
                .tab-content &:focus,
                .tab-content &:active,
                .tab-content &:hover:active {
                     text-decoration: none;
                 }
-     .tab-content .btn-link:hover {
+#faq-tab-content .btn-link:hover {
     color: #444444;
 }
- .tab-content   .card-body p {
+#faq-tab-content .card-body p {
     color: rgba(68,68,76,.80);
     margin-bottom: 0;
     font-size: 0.85rem;
 }
-.tab-content  &:last-of-type {
+#faq-tab-content &:last-of-type {
                 margin: 0;
             }
 
