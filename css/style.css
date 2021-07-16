@@ -557,47 +557,42 @@ input::-webkit-calendar-picker-indicator {
 #summary .col-md-6 {
 	padding-right: 0px;
 }
-#summary .fa-users {
-	color: #4BC076;
-    background-color: rgb(75 192 118 / 30%);
+#summary i {
     padding: 9px;
     border-radius: 50%;
     font-size: 1.2rem;
+}
+#summary .fa-users {
+    color: #4BC076;
+    background-color: rgb(75 192 118 / 30%);
+}
+#summary .fa-server {
+    color: #62CBE5;
+    background-color: rgb(98 203 229 / 30%);
+}
+#summary .fa-tag {
+    color: #EA676D;
+    background-color: rgb(234 103 109 / 30%);
 }
 #summary .fa-link {
-	color: #FDB858;
+    color: #FDB858;
     background-color: rgb(253 184 88 / 30%);
-    padding: 9px;
-    border-radius: 50%;
-    font-size: 1.2rem;
 }
-#summary .fa-file-archive {
-	color: #EC6F91;
-    background-color: rgb(236 111 145 / 30%);
-    padding: 9px;
-    border-radius: 50%;
-    font-size: 1.2rem;
+#summary .fa-database {
+    color: #FDB858;
+    background-color: rgb(253 184 88 / 30%);
 }
-#summary .fa-table {
-	color: #62CBE5;
-    background-color: rgb(98 203 229 / 30%);
-    padding: 9px;
-    border-radius: 50%;
-    font-size: 1.2rem;
-}
-#summary .fa-play-circle {
-	color: #EA676D;
-    background-color: rgb(234 103 109 / 30%);
-    padding: 9px;
-    border-radius: 50%;
-    font-size: 1.2rem;
+#summary .fa-file-code {
+    color: #FDB858;
+    background-color: rgb(253 184 88 / 30%);
 }
 #summary .fa-file-alt {
-	color: #7D8EE2;
+    color: #7D8EE2;
     background-color: rgb(125 142 226 / 30%);
-    padding: 9px;
-    border-radius: 50%;
-    font-size: 1.2rem;
+}
+#summary .fa-file-archive {
+    color: #EC6F91;
+    background-color: rgb(236 111 145 / 30%);
 }
 
 .records-processed img {
