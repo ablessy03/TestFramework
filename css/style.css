@@ -563,36 +563,36 @@ input::-webkit-calendar-picker-indicator {
     font-size: 1.2rem;
 }
 #summary .fa-users {
-    color: #4BC076;
-    background-color: rgb(75 192 118 / 30%);
+    color: #0AA350;
+    background-color: rgb(10 163 80 / 30%);
 }
 #summary .fa-server {
-    color: #62CBE5;
-    background-color: rgb(98 203 229 / 30%);
+    color: #44A0E3;
+    background-color: rgb(68 160 227 / 30%);
 }
 #summary .fa-tag {
-    color: #EA676D;
-    background-color: rgb(234 103 109 / 30%);
+    color: #F48A1D;
+    background-color: rgb(244 138 29 / 30%);
 }
 #summary .fa-link {
-    color: #FDB858;
-    background-color: rgb(253 184 88 / 30%);
+    color: #EACF2A;
+    background-color: rgb(234 207 42 / 30%);
 }
 #summary .fa-database {
-    color: #FDB858;
-    background-color: rgb(253 184 88 / 30%);
+    color: #E91C2B;
+    background-color: rgb(233 28 43 / 30%);
 }
 #summary .fa-file-code {
-    color: #FDB858;
-    background-color: rgb(253 184 88 / 30%);
+    color: #6D330D;
+    background-color: rgb(109 51 13 / 30%);
 }
 #summary .fa-file-alt {
-    color: #7D8EE2;
-    background-color: rgb(125 142 226 / 30%);
+    color: #D90B91;
+    background-color: rgb(217 11 145 / 30%);
 }
 #summary .fa-file-archive {
-    color: #EC6F91;
-    background-color: rgb(236 111 145 / 30%);
+    color: #693599;
+    background-color: rgb(105 53 153 / 30%);
 }
 
 .records-processed img {
