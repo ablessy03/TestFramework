@@ -236,7 +236,7 @@ td i, .btn i {
 
 #wrapper #content-wrapper #content {
     flex: 1 0 auto;
-    padding: 0 30px;
+    padding: 0 30px 30px 30px;
 }
 
 input {
