@@ -726,7 +726,7 @@ input::-webkit-calendar-picker-indicator {
  .tab-content       h5 {
             margin: 0;
 }         
-  .tab-content  button {
+#faq-tab-content  button {
                 display: block;
                 width: 100%;
                 padding: 0;
