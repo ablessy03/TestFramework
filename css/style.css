@@ -908,6 +908,10 @@ input::-webkit-calendar-picker-indicator {
   color: #0085D8;
 }
 
+#column-mapping .bootstrap-select {
+  width: unset;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 9px;
