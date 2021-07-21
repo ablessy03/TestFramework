@@ -333,15 +333,20 @@
 									<form>
 										<div class="form-group">											
 											<label for="name">Name</label>
-											<input type="text" id="name" name="name" placeholder="User1" disabled class="shadow">
+											<input type="text" id="name" name="name" value="User1" disabled class="shadow">
 										</div>
 										<div class="form-group">										
-											<label for="status">Status</label>
-											<input type="text" id="status" name="status" placeholder="Active" class="shadow">
+											<label for="status">Status</label>											
+											<select class="shadow custom-select px-2" id="status" title="Select Status" >
+											  <option>Active</option>
+											  <option>Disabled</option>
+											  <option>Suspended</option>
+											  <option>Locked</option>											
+											</select>
 										</div>										
 										<div class="form-group">										
 											<label for="user-status">Status Cause</label>
-											<input type="text" id="status-cause" name="status-cause" placeholder="Working Actively" class="shadow">
+											<input type="text" id="status-cause" name="status-cause" value="Working Actively" class="shadow">
 										</div>	
 									</form>
 								</div>
@@ -376,19 +381,19 @@
 									<form>	
 										<div class="form-group">
 											<label for="fname">First Name</label>
-											<input type="text" id="fname" name="fname" placeholder="User" disabled class="shadow">
+											<input type="text" id="fname" name="fname" value="User" disabled class="shadow">
 										</div>											
 										<div class="form-group">
 											<label for="lname">Last Name</label>
-											<input type="text" id="lname" name="lname" placeholder="1" disabled class="shadow">
+											<input type="text" id="lname" name="lname" value="1" disabled class="shadow">
 										</div>
 										<div class="form-group">
 											<label for="email">Email</label>
-											<input type="email" id="email" name="email" placeholder="user1@onepointltd.com" disabled class="shadow">
+											<input type="email" id="email" name="email" value="user1@onepointltd.com" disabled class="shadow">
 										</div>										
 										<div class="form-group">
 											<label for="phone">Phone No.</label>
-											<input type="tel" id="phone" name="phone" placeholder="+44 12 3456 7890" disabled class="shadow">
+											<input type="tel" id="phone" name="phone" value="+44 12 3456 7890" disabled class="shadow">
 										</div>									
 										<div class="form-group">
 											<label>Job Roles</label>
