@@ -54,6 +54,16 @@
 				</div>
 			</li>
 		
+			<!-- Nav Item - Select Project -->            
+            <li class="nav-item">
+				<div class="nav-link">
+					<select name="project" id="project" class="selectpicker show-menu-arrow" title="Select A Project" data-style="btn">
+						<option value="fccp">FCCP</option>
+						<option value="testframework">Test Framework</option>
+					</select>
+				</div>
+			</li>
+		
 			<!-- Nav Item - Alerts -->
             <li class="nav-item dropdown no-arrow">
                 <a class="nav-link" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -135,8 +145,7 @@
         <!-- Sidebar -->
         <ul class="navbar-nav bg-white sidebar sidebar-dark accordion" id="accordionSidebar">
 
-            
-             <!-- Nav Item - Dashboard -->
+            <!-- Nav Item - Dashboard -->
             <li class="nav-item">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
@@ -179,14 +188,14 @@
                 Company
             </div>	    
 
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link collapsed" href="companyusers.html">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Users</span>
                 </a>
             </li>	    
 	
-	    <li class="nav-item">
+	          <li class="nav-item">
                 <a class="nav-link collapsed" href="companyplugins.html">
                     <i class="fas fa-fw fa-file"></i>
                     <span>Plugins</span>
@@ -217,7 +226,7 @@
 
             <!-- Nav Item -->
 
-            <li class="nav-item">
+            <li class="nav-item active">
                 <a class="nav-link collapsed" href="users.html">
                     <i class="fas fa-fw fa-user"></i>
                     <span>Users</span>
@@ -298,6 +307,7 @@
                     <span>Contact Us</span>
                 </a>
             </li>
+
         </ul>
         <!-- End of Sidebar -->
 
@@ -306,7 +316,7 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-					<li class="breadcrumb-item"><a href="companyusers.html">Users</a></li>
+					<li class="breadcrumb-item"><a href="users.html">Users</a></li>
 					<li class="breadcrumb-item active" aria-current="page">Details</li>
 				</ol>
 			</nav>
@@ -323,15 +333,15 @@
 									<form>
 										<div class="form-group">											
 											<label for="name">Name</label>
-											<input type="text" id="name" name="name" value="User1" class="shadow">
+											<input type="text" id="name" name="name" placeholder="User1" disabled class="shadow">
 										</div>
 										<div class="form-group">										
 											<label for="status">Status</label>
-											<input type="text" id="status" name="status" value="Active" class="shadow">
+											<input type="text" id="status" name="status" placeholder="Active" class="shadow">
 										</div>										
 										<div class="form-group">										
 											<label for="user-status">Status Cause</label>
-											<input type="text" id="status-cause" name="status-cause" value="Working Actively" class="shadow">
+											<input type="text" id="status-cause" name="status-cause" placeholder="Working Actively" class="shadow">
 										</div>	
 									</form>
 								</div>
@@ -366,19 +376,34 @@
 									<form>	
 										<div class="form-group">
 											<label for="fname">First Name</label>
-											<input type="text" id="fname" name="fname" value="User" class="shadow">
+											<input type="text" id="fname" name="fname" placeholder="User" disabled class="shadow">
 										</div>											
 										<div class="form-group">
 											<label for="lname">Last Name</label>
-											<input type="text" id="lname" name="lname" value="1" class="shadow">
+											<input type="text" id="lname" name="lname" placeholder="1" disabled class="shadow">
 										</div>
 										<div class="form-group">
 											<label for="email">Email</label>
-											<input type="email" id="email" name="email" value="user1@onepointltd.com" class="shadow">
+											<input type="email" id="email" name="email" placeholder="user1@onepointltd.com" disabled class="shadow">
 										</div>										
 										<div class="form-group">
 											<label for="phone">Phone No.</label>
-											<input type="tel" id="phone" name="phone" value="+44 12 3456 7890" class="shadow">
+											<input type="tel" id="phone" name="phone" placeholder="+44 12 3456 7890" disabled class="shadow">
+										</div>									
+										<div class="form-group">
+											<label>Job Roles</label>
+											<div class="form-check-inline">
+												<input type="checkbox" class="form-check-input" id="test-manager" name="test-manager" value="test-manager" checked>Test Manager
+												<label class="form-check-label" for="test-manager"></label>
+											</div>
+											<div class="form-check-inline">
+												<input type="checkbox" class="form-check-input" id="tester" name="tester" value="tester">Tester
+												<label class="form-check-label" for="tester"></label>
+											</div>
+											<div class="form-check-inline">
+												<input type="checkbox" class="form-check-input" id="test-analyst" name="test-analyst" value="test-analyst">Test Analyst
+												<label class="form-check-label" for="test-analyst"></label>
+											</div>
 										</div>
 									</form>
 								<a href="#" class="btn btn-primary save"><i class="fas fa-save"></i><span>Save</span></a>
