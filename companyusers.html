@@ -311,22 +311,28 @@
 
             <!-- Main Content -->
             <div id="content">
-			
-					<div class ="card shadow table-add">
+		
+					<div class ="card shadow table-create">
 					
 						<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-11">
 							<!-- Search Bar -->
 								<form id="searchbar">
 									<input type="search" placeholder="Search">
 								</form>
+							</div>
+				
+							<!-- Create -->
+							<div class="col-md-1">
+								<a href="companyusers-details.html" class="btn btn-primary create"><i class="fas fa-plus"></i><span>Create</span></a>
 							</div>
 						</div>
 
 						<table class="table table-striped table-light shadow table-hover">
 							<thead>
 								<tr>
-									<th scope="col">Name <i class="fas fa-sort"></i> </th>									
+									<th scope="col">Name <i class="fas fa-sort"></i> </th>
+									<th scope="col">Role<i class="fas fa-sort"></i> </th>									
 									<th scope="col">Status<i class="fas fa-sort"></i> </th>
 									<th scope="col">Email<i class="fas fa-sort"></i> </th>
 									<th scope="col">Updated On<i class="fas fa-sort"></i> </th>
@@ -335,79 +341,53 @@
 							</thead>
 							<tbody>
 								<tr>
-									<td>User1</td>								
+									<td>User1</td>
+									<td>Test Manager</td>									
 									<td class="badge badge-success">Active</td>
 									<td>user1@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
-									</td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
 								</tr>
 								<tr>
-									<td>User2</td>						
+									<td>User2</td>
+									<td>Tester</td>								
 									<td class="badge badge-secondary">Disabled</td>
 									<td>user2@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
-									</td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
 								</tr>
 								<tr>
-									<td>User3</td>							
+									<td>User3</td>
+									<td>Test Analyst</td>								
 									<td class="badge badge-danger">Locked</td>
 									<td>user3@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i>
 									</td>
 								</tr>
 								<tr>
-									<td>User4</td>								
+									<td>User4</td>
+									<td>Test Manager</td>								
 									<td class="badge badge-success">Active</td>
 									<td>user4@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
-									</td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
 								</tr>
 								<tr>
-									<td>User5</td>						
+									<td>User5</td>
+									<td>Tester</td>								
 									<td class="badge badge-success">Active</td>
 									<td>user5@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
-									</td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
 								</tr>
 								<tr>
-									<td>User6</td>							
+									<td>User6</td>
+									<td>Test Analyst</td>								
 									<td class="badge badge-success">Active</td>
 									<td>user6@onepointltd.com</td>
 									<td>21/4/2021 | 12:44</td>
-									<td>
-										<a href="companyusers-details.html"><i class="fas fa-pen"></i></a>
-										<a href="#"><i class="fas fa-trash-alt"></i></a>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<select class="selectpicker" title="Select User" data-live-search="true" data-selected-text-format="count">
-										  <option>User7</option>
-										  <option>User8</option>
-										  <option>User9</option>
-										  <option>User10</option>
-										  <option>User11</option>											
-										</select>
-									</td>
-									<td></td>
-									<td></td>
-									<td></td>
-									<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
+									<td><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
 								</tr>
 							</tbody>
 						</table>	
