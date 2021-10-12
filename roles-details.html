@@ -25,7 +25,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Favicon -->	
-    <link href="/favicon.png" rel="shortcut icon" type="image" />
+    <link href="img/favicon.png" rel="shortcut icon" type="image" />
 
 </head>
 
@@ -243,15 +243,15 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="data-sources.html" >
+                <a class="nav-link collapsed" href="operations.html" >
                     <i class="fas fa-fw fa-database"></i>
-                    <span>Data Sources</span>
+                    <span>Operations</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="variables.html" >
+                <a class="nav-link collapsed" href="properties.html" >
                     <i class="fas fa-fw fa-file-code"></i>
-                    <span>Variables</span>
+                    <span>Properties</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -347,7 +347,7 @@
 					
 					</div>
 			
-					<div class="card shadow table-add">
+					<div class="card shadow table-add permissions">
 											
 						<h6 class="card-header">Permissions</h6>
 						
@@ -357,19 +357,338 @@
 								<input type="checkbox" onClick="toggle(this)" />All
 							</div>
 							<div class="form-check-inline">
-								<input type="checkbox" name="users-permission" value="create"> Create
+								<input type="checkbox" name="users-permission" value="Users-List-CompanyView">Users List by Company
 							</div>
 							<div class="form-check-inline">
-								<input type="checkbox" name="users-permission" value="company-add"> Add to Company
+								<input type="checkbox" name="users-permission" value="Users-List-ProjectView"> User List by Project
 							</div>
 							<div class="form-check-inline">
-								<input type="checkbox" name="users-permission" value="project-add"> Add to Project
+								<input type="checkbox" name="users-permission" value="User-Detailed-View"> View User Details
 							</div>
 							<div class="form-check-inline">
-								<input type="checkbox" name="users-permission" value="edit"> Edit Details
+								<input type="checkbox" name="users-permission" value="User-Create"> Create User
 							</div>							
 							<div class="form-check-inline">
-								<input type="checkbox" name="users-permission" value="delete"> Delete
+								<input type="checkbox" name="users-permission" value="User-Create"> Add User
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="users-permission" value="User-Modify-Company"> Modify User Details at Company Level
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="users-permission" value="User-Modify-Project"> Modify User Details at Project Level
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="users-permission" value="User-Modify-Self"> Modify Personal Details 
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="users-permission" value="User-Delete-Company"> Delete User from Company
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="users-permission" value="User-Delete-Project"> Delete User from Project
+							</div>
+						</div>			
+												
+						<div class="security-role">
+							<h6>Security Role</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="security-role-permission" value="Security-Role-List">View Security Roles List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="security-role-permission" value="Security-Role-View"> View Security Role Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="security-role-permission" value="Security-Role-Create"> Create Security Role
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="security-role-permission" value="Security-Role-Modify"> Modify Security Role Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="security-role-permission" value="Security-Role-Delete"> Delete Security Role
+							</div>
+						</div>			
+												
+						<div class="companies">
+							<h6>Companies</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="companies-permission" value="Companies-List">View Companies List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="companies-permission" value="Companies-View"> View Company Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="companies-permission" value="Companies-Create"> Create Company
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="companies-permission" value="Companies-Modify"> Modify Company Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="companies-permission" value="Companies-Delete"> Delete Company
+							</div>
+						</div>			
+												
+						<div class="projects">
+							<h6>Projects</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="projects-permission" value="Projects-List">View Projects List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="projects-permission" value="Projects-View"> View Project Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="projects-permission" value="Projects-Create"> Create Project
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="projects-permission" value="Projects-Modify"> Modify Project Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="projects-permission" value="Projects-Delete"> Delete Project
+							</div>
+						</div>			
+												
+						<div class="plugins">
+							<h6>Plugins</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="plugins-permission" value="Plugins-List">View Plugins List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="plugins-permission" value="Plugins-View"> View Plugin Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="plugins-permission" value="Plugins-Create"> Create Plugin
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="plugins-permission" value="Plugins-Modify"> Modify Plugin Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="plugins-permission" value="Plugins-Delete"> Delete Plugin
+							</div>
+						</div>			
+												
+						<div class="environments">
+							<h6>Environments</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="environments-permission" value="Environment-List">View Environment List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="environments-permission" value="Environment-View"> View Environment Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="environments-permission" value="Environment-Create"> Create Environment
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="environments-permission" value="Environment-Modify"> Modify Environment Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="environments-permission" value="Environment-Delete"> Delete Environment
+							</div>
+						</div>			
+												
+						<div class="tags">
+							<h6>Tags</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="tags-permission" value="Tag-List">View Tag List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="tags-permission" value="Tag-View"> View Tag Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="tags-permission" value="Tag-Create"> Create Tag
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="tags-permission" value="Tag-Modify"> Modify Tag Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="tags-permission" value="Tag-Delete"> Delete Tag
+							</div>
+						</div>			
+												
+						<div class="connections">
+							<h6>Connections</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="connections-permission" value="Connection-List">View Connection List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="connections-permission" value="Connection-View"> View Connection Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="connections-permission" value="Connection-Create"> Create Connection
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="connections-permission" value="Connection-Modify"> Modify Connection Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="connections-permission" value="Connection-Delete"> Delete Connection
+							</div>
+						</div>			
+												
+						<div class="operations">
+							<h6>Operations</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="operations-permission" value="Operation-List">View Operation List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="operations-permission" value="Operation-View"> View Operation Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="operations-permission" value="Operation-Create"> Create Operation
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="operations-permission" value="Operation-Modify"> Modify Operation Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="operations-permission" value="Operation-Delete"> Delete Operation
+							</div>
+						</div>			
+												
+						<div class="properties">
+							<h6>Properties</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="properties-permission" value="Property-List">View Property List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="properties-permission" value="Property-View"> View Property Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="properties-permission" value="Property-Create"> Create Property
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="properties-permission" value="Property-Modify"> Modify Property Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="properties-permission" value="Property-Delete"> Delete Property
+							</div>
+						</div>			
+												
+						<div class="test-suite">
+							<h6>Test Suite</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-permission" value="Test-Suite-List">View Test Suite List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-permission" value="Test-Suite-View"> View Test Suite Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-permission" value="Test-Suite-Create"> Create Test Suite
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-permission" value="Test-Suite-Modify"> Modify Test Suite Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-permission" value="Test-Suite-Delete"> Delete Test Suite
+							</div>
+						</div>			
+												
+						<div class="test-case">
+							<h6>Test Case</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-permission" value="Test-Case-List">View Test Case List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-permission" value="Test-Case-View"> View Test Case Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-permission" value="Test-Case-Create"> Create Test Case
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-permission" value="Test-Case-Modify"> Modify Test Case Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-permission" value="Test-Case-Delete"> Delete Test Case
+							</div>
+						</div>			
+												
+						<div class="test-execution">
+							<h6>Test Case Execution and Test Suite Execution</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-execution-permission" value="Test-Execution-List">View Test Case Execution and Test Suite Execution List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-execution-permission" value="Test-Execution-List"> View Test Case Execution and Test Suite Execution Details
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-execution-permission" value="Test-Execution-List"> Create Test Case Execution and Test Suite Execution 
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-execution-permission" value="Test-Execution-List"> Modify Test Case Execution and Test Suite Execution Details
+							</div>							
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-execution-permission" value="Test-Execution-List"> Delete Test Case Execution and Test Suite Execution 
+							</div>
+						</div>			
+												
+						<div class="test-case-execution-history">
+							<h6>Test Case Execution History</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-execution-history-permission" value="TestCaseExecutionHistory-List">View Test Case Execution History List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-case-execution-history-permission" value="TestCaseExecutionHistory-View"> View Test Case Execution History Details
+							</div>
+						</div>			
+												
+						<div class="test-suite-execution-history">
+							<h6>Test Suite Execution History</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" onClick="" />All
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-execution-history-permission" value="TestSuiteExecutionHistory-List">View Test Suite Execution History List
+							</div>
+							<div class="form-check-inline">
+								<input type="checkbox" name="test-suite-execution-history-permission" value="TestSuiteExecutionHistory-View"> View Test Suite Execution History Details
+							</div>
+						</div>			
+												
+						<div class="audit-logs">
+							<h6>Audit Logs</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" name="audit-logs-permission" value="AuditLogs-List">View Audit Logs List
+							</div>
+						</div>			
+												
+						<div class="notification">
+							<h6>Notification</h6>
+							<div class="form-check-inline">
+								<input type="checkbox" name="notification-permission" value="Notification-List">View Notification List
 							</div>
 						</div>
 													

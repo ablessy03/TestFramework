@@ -26,7 +26,7 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- Favicon -->	
-    <link href="/favicon.png" rel="shortcut icon" type="image" />
+    <link href="img/favicon.png" rel="shortcut icon" type="image" />
 
 </head>
 
@@ -246,15 +246,15 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="data-sources.html" >
+                <a class="nav-link collapsed" href="operations.html" >
                     <i class="fas fa-fw fa-database"></i>
-                    <span>Data Sources</span>
+                    <span>Operations</span>
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link collapsed" href="variables.html" >
+                <a class="nav-link collapsed" href="properties.html" >
                     <i class="fas fa-fw fa-file-code"></i>
-                    <span>Variables</span>
+                    <span>Properties</span>
                 </a>
             </li>
             <li class="nav-item">
@@ -323,7 +323,7 @@
 						<h6 class="card-header">Basic Info</h6>
 						<div class="card-body basicInfo">
 							<div class="row">
-								<div class="col-md-8">
+								<div class="col-md-7">
 									<form>
 										<div class="form-group">
 											<label for="name">Name</label>
@@ -335,7 +335,7 @@
 										</div>	
 									</form>
 								</div>
-								<div class="col-md-4">
+								<div class="col-md-5">
 									<div>
 										<label>Created on:</label>
 										<span>26/06/2021 14:15 by Nikky </span>
@@ -344,61 +344,124 @@
 										<label>Updated on:</label>
 										<span>27/06/2021 14:10 by Nikky </span>
 									</div>
+									<div>
+										<label>Status Changed on:</label>
+										<span>28/06/2021 14:10 by Nikky </span>
+									</div>
 								</div>
 							</div>
 						</div>
 					
 					</div>
 			
-					<div class="card shadow">
 					
-						<h6 class="card-header">Detailed Info</h6>
-						<div class="card-body">
-							<form>
-								<div id="file">
-									<div class="form-group">
-										<label for="owner">Owner</label>
-										<input type="text" id="owner" name="owner" class="shadow" value="OnePoint" disabled>
-									</div>
-									<div class="form-group">
-										<label for="version-number">Version Number</label>
-										<input type="text" id="version-number" name="version-number" class="shadow" value="1.7.1" disabled>
-									</div>
-									<div class="form-group">
-										<label for="file-name">File Name</label>
-										<input type="text" id="file-name" name="file-name" class="shadow" value="onepoint-datasources-1.7.1.jar" disabled>
-									</div>
-									<div class="form-group">
-										<label for="file-bytes">File Bytes</label>
-										<input type="text" id="file-bytes" name="file-bytes" class="shadow" value="FEDAE1213AF3E..." disabled>
-									</div>
-									<div class="form-group">
-										<label for="active-version">Active Version</label>
-										<select class="form-select form-select-md shadow px-2" id="active-version" title="Select Active Version" >
-											<option>1.7.0</option>
-											<option>1.7.1</option>
-											<option>1.7.2</option>
-											<option>1.7.3</option>											
-										</select>
-									</div>
-									<div class="form-group">
-										<label for="status">Status</label>
-										<select class="form-select form-select-md shadow px-2" id="status" title="Select Status" >
-											<option>Active</option>
-											<option>Disabled</option>
-											<option>Suspended</option>
-											<option>Locked</option>											
-										</select>
-									</div>
-									<div class="form-group">
-										<label for="status-cause">Status Cause</label>
-										<input type="text" id="status-cause" name="status-cause" class="shadow" value="Active">
+					
+					<ul class="nav nav-tabs">
+						<li class="nav-item">
+							<a class="nav-link active" href="#info" id="info-tab" data-toggle="tab" role="tab" aria-controls="Info" aria-selected="true">Info</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#version-details" id="version-details-tab" data-toggle="tab" role="tab" aria-controls="Version Details" aria-selected="false">Version Details</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<div class="tab-pane fade show active" id="info">
+			
+							<div class ="card shadow">
+								<div class="card-body">										
+									<form>
+										<div class = "form-group">
+											<label for="active-version">Active Version</label>										
+											<select class="form-select form-select-md shadow px-2" id="active-version" title="Active Version" >
+												<option>1.1</option>
+												<option>1.0</option>
+												<option>0.9</option>
+												<option>0.8</option>
+												<option>0.7</option>											
+											</select>
+										</div>
+										<div class = "form-group">
+											<label for="status">Status</label>
+											<select class="form-select form-select-md shadow px-2" id="status" title="Select Status" >
+												<option>Active</option>
+												<option>Disabled</option>
+												<option>Suspended</option>
+												<option>Locked</option>											
+											</select>
+										</div>
+										<div class = "form-group">
+											<label for="status-cause">Status Cause</label>
+											<input type="text" id="status-cause" name="status-cause" class="shadow">
+										</div>	
+									</form>
+								</div>
+							</div>
+						
+						</div>
+						
+						<div class="tab-pane fade" id="version-details">
+				
+							<div class ="card shadow table-add">
+						
+								<div class="row">
+									<div class="col-md-12">
+									<!-- Search Bar -->
+										<form id="searchbar">
+											<input type="search" placeholder="Search">
+										</form>
 									</div>
 								</div>
-							</form>							
+
+								<table class="table table-striped table-light shadow table-hover">
+								<thead>
+									<tr>
+										<th scope="col">Owner <i class="fas fa-sort"></i> </th>
+										<th scope="col">Version <i class="fas fa-sort"></i> </th>
+										<th scope="col">File Name <i class="fas fa-sort"></i> </th>
+										<th scope="col">File Bytes <i class="fas fa-sort"></i> </th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Onepoint</td>
+										<td>1.1</td>
+										<td>onepoint-datasources-1.1.jar</td>
+										<td><i class="fas fa-download"></i></td>
+									</tr>
+									<tr>
+										<td>Onepoint</td>
+										<td>1.0</td>
+										<td>onepoint-datasources-1.0.jar</td>
+										<td><i class="fas fa-download"></i></td>
+									</tr>
+									<tr>
+										<td>Onepoint</td>
+										<td>0.9</td>
+										<td>onepoint-datasources-0.9.jar</td>
+										<td><i class="fas fa-download"></i></td>
+									</tr>
+								</tbody>
+							</table>	
+
+								<nav aria-label="navigation">
+									<ul class="pagination shadow">
+										<li class="page-item">
+											<a class="page-link" href="#" aria-label="Previous">
+												<span aria-hidden="true">&laquo;</span>
+											</a>
+										</li>
+										<li class="page-item active"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item">
+											<a class="page-link" href="#" aria-label="Next">
+												<span aria-hidden="true">&raquo;</span>
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
 						</div>
-					
-					</div>
             </div>
             <!-- End of Main Content -->
 			
