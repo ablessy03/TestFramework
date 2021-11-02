@@ -319,7 +319,7 @@
 			<nav aria-label="breadcrumb">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-					<li class="breadcrumb-item active" aria-current="page">Test Execution</li>
+					<li class="breadcrumb-item active" aria-current="page">Test Suite Execution</li>
 				</ol>
 			</nav>
 
@@ -329,11 +329,16 @@
 						<div class ="table-add card shadow">
 					
 							<div class="row">
-								<div class="col-md-12">
+								<div class="col-md-11">
 								<!-- Search Bar -->
 									<form id="searchbar">
 										<input type="search" placeholder="Search">
 									</form>
+								</div>
+				
+								<!-- Create -->
+								<div class="col-md-1">
+									<a href="test-execution-details.html" class="btn btn-primary create"><i class="fas fa-plus"></i><span>Create</span></a>
 								</div>
 							</div>
 
@@ -341,8 +346,7 @@
 								<thead>
 									<tr>
 										<th scope="col">Priority<i class="fas fa-sort"></i> </th>
-										<th scope="col">Execution Name <i class="fas fa-sort"></i> </th>
-										<th scope="col">Suite Name <i class="fas fa-sort"></i> </th>
+										<th scope="col">Suite Execution Name <i class="fas fa-sort"></i> </th>
 										<th scope="col">No.of Test Cases <i class="fas fa-sort"></i> </th>
 										<th scope="col">Status <i class="fas fa-sort"></i> </th>
 										<th scope="col">% of Completion <i class="fas fa-sort"></i> </th>
@@ -353,54 +357,34 @@
 									<tr>
 										<td>10</td>
 										<td>Exec1</td>
-										<td>Suite1</td>
 										<td>10</td>
 										<td>Paused</td>
 										<td>45%</td>
-										<td><i class="fas fa-play"></i><i class="fas fa-stop"></i><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+										<td><i class="fas fa-play"></i><i class="fas fa-stop"></i><i class="fas fa-pen icon btn btn-outline-dark"></i><i class="fas fa-trash-alt icon btn btn-outline-danger"></td>
 									</tr>
 									<tr>
 										<td>21</td>
 										<td>Exec2</td>
-										<td>Suite2</td>
 										<td>50</td>
 										<td>Running</td>
 										<td>10%</td>
-										<td><i class="fas fa-pause"></i><i class="fas fa-stop"></i><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+										<td><i class="fas fa-pause"></i><i class="fas fa-stop"></i><i class="fas fa-pen icon btn btn-outline-dark"></i><i class="fas fa-trash-alt icon btn btn-outline-danger"></i></td>
 									</tr>
 									<tr>
 										<td>28</td>
 										<td>Exec3</td>
-										<td>Suite3</td>
 										<td>2</td>
 										<td>Queued</td>
 										<td>-</td>
-										<td><i class="fas fa-play"></i><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
+										<td><i class="fas fa-play"></i><i class="fas fa-pen icon btn btn-outline-dark"></i><i class="fas fa-trash-alt icon btn btn-outline-danger"></i></td>
 									</tr>
 									<tr>
 										<td>98</td>
 										<td>Exec4</td>
-										<td>Suite4</td>
 										<td>100</td>
 										<td>Queued</td>
 										<td>-</td>
-										<td><i class="fas fa-play"></i><i class="fas fa-pen"></i><i class="fas fa-trash-alt"></i></td>
-									</tr>
-									<tr>
-										<td><input type="text" class="form-control" placeholder="Enter Priority"></td>									
-										<td><input type="text" class="form-control" placeholder="Enter Execution Name"></td>
-										<td>
-											<select class="selectpicker" multiple title="Select Suite" data-selected-text-format="count" data-live-search="true">
-											  <option>Suite5</option>
-											  <option>Suite6</option>
-											  <option>Suite7</option>
-											  <option>Suite8</option>
-											</select>
-										</td>
-										<td></td>
-										<td></td>
-										<td></td>
-										<td><a href="#" class="btn btn-outline-primary add"><i class="fas fa-plus"></i><span>Add</span></a></td>
+										<td><i class="fas fa-play"></i><i class="fas fa-pen icon btn btn-outline-dark"></i><i class="fas fa-trash-alt icon btn btn-outline-danger"></i></td>
 									</tr>
 								</tbody>
 							</table>	
