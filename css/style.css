@@ -1228,6 +1228,66 @@ ul, #tree-ul {
     margin: 0.5em;
 }
 
+.login-body {
+	height: 100vh;
+    background: linear-gradient(#0085D8 0%, #0085D8 50%, #ffffff 50%);
+	display: flex;
+}
+
+.login-card {
+	width: 75%;
+	margin: auto;
+	background-color: #F5F5F5;
+}
+
+.login-sub {
+	margin: 1.5rem !important;
+}
+
+.login-btn {        
+    font-size: 15px;
+    font-weight: bold;
+}
+.or-seperator {
+    margin: 20px 0 10px;
+    text-align: center;
+    border-top: 1px solid #ccc;
+	font-size: small;
+}
+.or-seperator i {
+    padding: 0 10px;
+    background: #ffffff;
+    position: relative;
+    top: -11px;
+    z-index: 1;
+}
+.social-btn .btn {
+    margin: 10px 0;
+    font-size: 15px;
+    text-align: left; 
+    line-height: 24px;       
+}
+.input-group-addon .fa{
+    font-size: 18px;
+}
+
+.input-group-text {
+	border: 0px !important;
+}
+
+.clearfix input {
+	float: unset !important;
+	width: auto !important;
+}
+
+.logo {
+	 width: 75%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 9px;
