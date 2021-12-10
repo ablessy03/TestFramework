@@ -41,15 +41,35 @@ body {
 }
 
 .bg-info {
-	background-color: #0085D8!important;
+	background-color: #e5f3fb!important;
 }
 
 .bg-warning {
-	background-color: #D8B300!important;
+	background-color: #fbf7e5!important;
 }
 
 .bg-error{
+	background-color: #fbe9e5!important;
+}
+
+.bg-success{
+	background-color: #e3f4e2!important;
+}
+
+.icon-info {
+	background-color: #0085D8!important;
+}
+
+.icon-warning {
+	background-color: #D8B300!important;
+}
+
+.icon-error{
 	background-color: #D82B00!important;
+}
+
+.icon-success{
+	background-color: #2ac503!important;
 }
 
 .info-border {
@@ -62,6 +82,10 @@ body {
 
 .error-border {
 	border-left: 4px solid #D82B00;
+}
+
+.success-border {
+	border-left: 4px solid #2ac503;
 }
 
 .border-bottom {
@@ -1281,11 +1305,37 @@ ul, #tree-ul {
 }
 
 .logo {
-	 width: 75%;
+  width: 75%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.message {
+	margin: .45rem 2rem 0rem;
+}
+
+.message .card-header{
+	padding: 0.45rem;    
+	background-color: #F7FAFC;
+    color: #0085D8;
+    border-bottom: 0px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+.message .card-body{
+	padding: 0.45rem;
+}
+
+.message .icon-message {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* width */
